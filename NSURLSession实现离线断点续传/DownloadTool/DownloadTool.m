@@ -54,6 +54,8 @@
     
     NSDictionary* attributes = [fileManager attributesOfItemAtPath:fileFullPath
                                                              error:nil];
+    // 打印文件的所有属性
+    NSLog(@"文件所有的属性\n%@",attributes);
     // 如果有该文件，且为下载没完成，就直接拿出该文件的长度设置进度值，并设置当前的文件长度
     NSInteger fileCurrentSize = [attributes[@"NSFileSize"] integerValue];
     // 如果文件长度为0，就不需要计算进度值了
