@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B07D9DD1C75F9960099DE6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B07D9DC1C75F9960099DE6E /* main.m */; };
+		3B07D9E01C75F9960099DE6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B07D9DF1C75F9960099DE6E /* AppDelegate.m */; };
+		3B07D9E31C75F9960099DE6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B07D9E21C75F9960099DE6E /* ViewController.m */; };
+		3B07D9E61C75F9960099DE6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B07D9E41C75F9960099DE6E /* Main.storyboard */; };
+		3B07D9E81C75F9960099DE6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B07D9E71C75F9960099DE6E /* Assets.xcassets */; };
+		3B07D9EB1C75F9960099DE6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B07D9E91C75F9960099DE6E /* LaunchScreen.storyboard */; };
+		3B07D9F41C75F9EA0099DE6E /* DownloadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B07D9F31C75F9EA0099DE6E /* DownloadTool.m */; };
+		3B07D9F91C75FAF10099DE6E /* RainbowProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B07D9F81C75FAF10099DE6E /* RainbowProgress.m */; };
+		3B07DA0F1C762F080099DE6E /* ExpendFileAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B07DA0E1C762F080099DE6E /* ExpendFileAttributes.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B07D9D81C75F9960099DE6E /* NSURLSession实现离线断点续传.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSURLSession实现离线断点续传.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B07D9DC1C75F9960099DE6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B07D9DE1C75F9960099DE6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B07D9DF1C75F9960099DE6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B07D9E11C75F9960099DE6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B07D9E21C75F9960099DE6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B07D9E51C75F9960099DE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B07D9E71C75F9960099DE6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B07D9EA1C75F9960099DE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B07D9EC1C75F9960099DE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B07D9F21C75F9EA0099DE6E /* DownloadTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadTool.h; path = DownloadTool/DownloadTool.h; sourceTree = "<group>"; };
+		3B07D9F31C75F9EA0099DE6E /* DownloadTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadTool.m; path = DownloadTool/DownloadTool.m; sourceTree = "<group>"; };
+		3B07D9F71C75FAF10099DE6E /* RainbowProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainbowProgress.h; sourceTree = "<group>"; };
+		3B07D9F81C75FAF10099DE6E /* RainbowProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainbowProgress.m; sourceTree = "<group>"; };
+		3B07DA0D1C762F080099DE6E /* ExpendFileAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpendFileAttributes.h; path = ExpendFileAttributes/ExpendFileAttributes.h; sourceTree = "<group>"; };
+		3B07DA0E1C762F080099DE6E /* ExpendFileAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpendFileAttributes.m; path = ExpendFileAttributes/ExpendFileAttributes.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B07D9D51C75F9960099DE6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B07D9CF1C75F9960099DE6E = {
+			isa = PBXGroup;
+			children = (
+				3B07D9DA1C75F9960099DE6E /* NSURLSession实现离线断点续传 */,
+				3B07D9D91C75F9960099DE6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B07D9D91C75F9960099DE6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B07D9D81C75F9960099DE6E /* NSURLSession实现离线断点续传.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B07D9DA1C75F9960099DE6E /* NSURLSession实现离线断点续传 */ = {
+			isa = PBXGroup;
+			children = (
+				3B07D9DE1C75F9960099DE6E /* AppDelegate.h */,
+				3B07D9DF1C75F9960099DE6E /* AppDelegate.m */,
+				3B07D9E11C75F9960099DE6E /* ViewController.h */,
+				3B07D9E21C75F9960099DE6E /* ViewController.m */,
+				3B07D9F51C75F9F70099DE6E /* DownloadTools */,
+				3B07D9F61C75FAF10099DE6E /* RainbowProgress */,
+				3B07DA101C762F610099DE6E /* ExpendFileAttributes */,
+				3B07D9E41C75F9960099DE6E /* Main.storyboard */,
+				3B07D9E71C75F9960099DE6E /* Assets.xcassets */,
+				3B07D9E91C75F9960099DE6E /* LaunchScreen.storyboard */,
+				3B07D9EC1C75F9960099DE6E /* Info.plist */,
+				3B07D9DB1C75F9960099DE6E /* Supporting Files */,
+			);
+			path = "NSURLSession实现离线断点续传";
+			sourceTree = "<group>";
+		};
+		3B07D9DB1C75F9960099DE6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B07D9DC1C75F9960099DE6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B07D9F51C75F9F70099DE6E /* DownloadTools */ = {
+			isa = PBXGroup;
+			children = (
+				3B07D9F21C75F9EA0099DE6E /* DownloadTool.h */,
+				3B07D9F31C75F9EA0099DE6E /* DownloadTool.m */,
+			);
+			name = DownloadTools;
+			sourceTree = "<group>";
+		};
+		3B07D9F61C75FAF10099DE6E /* RainbowProgress */ = {
+			isa = PBXGroup;
+			children = (
+				3B07D9F71C75FAF10099DE6E /* RainbowProgress.h */,
+				3B07D9F81C75FAF10099DE6E /* RainbowProgress.m */,
+			);
+			path = RainbowProgress;
+			sourceTree = "<group>";
+		};
+		3B07DA101C762F610099DE6E /* ExpendFileAttributes */ = {
+			isa = PBXGroup;
+			children = (
+				3B07DA0D1C762F080099DE6E /* ExpendFileAttributes.h */,
+				3B07DA0E1C762F080099DE6E /* ExpendFileAttributes.m */,
+			);
+			name = ExpendFileAttributes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B07D9D71C75F9960099DE6E /* NSURLSession实现离线断点续传 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B07D9EF1C75F9960099DE6E /* Build configuration list for PBXNativeTarget "NSURLSession实现离线断点续传" */;
+			buildPhases = (
+				3B07D9D41C75F9960099DE6E /* Sources */,
+				3B07D9D51C75F9960099DE6E /* Frameworks */,
+				3B07D9D61C75F9960099DE6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSURLSession实现离线断点续传";
+			productName = "NSURLSession实现离线断点续传";
+			productReference = 3B07D9D81C75F9960099DE6E /* NSURLSession实现离线断点续传.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B07D9D01C75F9960099DE6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HEYANG;
+				TargetAttributes = {
+					3B07D9D71C75F9960099DE6E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = D96KWVMP74;
+					};
+				};
+			};
+			buildConfigurationList = 3B07D9D31C75F9960099DE6E /* Build configuration list for PBXProject "NSURLSession实现离线断点续传" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B07D9CF1C75F9960099DE6E;
+			productRefGroup = 3B07D9D91C75F9960099DE6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B07D9D71C75F9960099DE6E /* NSURLSession实现离线断点续传 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B07D9D61C75F9960099DE6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B07D9EB1C75F9960099DE6E /* LaunchScreen.storyboard in Resources */,
+				3B07D9E81C75F9960099DE6E /* Assets.xcassets in Resources */,
+				3B07D9E61C75F9960099DE6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B07D9D41C75F9960099DE6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B07D9F91C75FAF10099DE6E /* RainbowProgress.m in Sources */,
+				3B07D9E31C75F9960099DE6E /* ViewController.m in Sources */,
+				3B07D9E01C75F9960099DE6E /* AppDelegate.m in Sources */,
+				3B07D9DD1C75F9960099DE6E /* main.m in Sources */,
+				3B07DA0F1C762F080099DE6E /* ExpendFileAttributes.m in Sources */,
+				3B07D9F41C75F9EA0099DE6E /* DownloadTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B07D9E41C75F9960099DE6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B07D9E51C75F9960099DE6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B07D9E91C75F9960099DE6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B07D9EA1C75F9960099DE6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B07D9ED1C75F9960099DE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B07D9EE1C75F9960099DE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B07D9F01C75F9960099DE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NSURLSession实现离线断点续传/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goodboy.NSURLSession--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B07D9F11C75F9960099DE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NSURLSession实现离线断点续传/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goodboy.NSURLSession--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B07D9D31C75F9960099DE6E /* Build configuration list for PBXProject "NSURLSession实现离线断点续传" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B07D9ED1C75F9960099DE6E /* Debug */,
+				3B07D9EE1C75F9960099DE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B07D9EF1C75F9960099DE6E /* Build configuration list for PBXNativeTarget "NSURLSession实现离线断点续传" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B07D9F01C75F9960099DE6E /* Debug */,
+				3B07D9F11C75F9960099DE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B07D9D01C75F9960099DE6E /* Project object */;
+}
