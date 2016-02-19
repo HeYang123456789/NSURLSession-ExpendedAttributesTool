@@ -6,6 +6,10 @@
 //  Copyright © 2016年 HEYANG. All rights reserved.
 //
 
+/**
+ *   ExpendFileAttributes工具类下载源码：https://github.com/HeYang123456789/NSURLSession-ExpendedAttributesTool
+ */
+
 #import "ExpendFileAttributes.h"
 
 #include <sys/xattr.h>

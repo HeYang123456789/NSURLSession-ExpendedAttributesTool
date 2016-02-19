@@ -6,6 +6,10 @@
 //  Copyright © 2016年 HEYANG. All rights reserved.
 //
 
+/**
+ *   ExpendFileAttributes工具类下载源码：https://github.com/HeYang123456789/NSURLSession-ExpendedAttributesTool
+ */
+
 #import <Foundation/Foundation.h>
 
 @interface ExpendFileAttributes : NSObject
@@ -15,7 +19,6 @@
 
 /** 读取文件扩展属性，值是字符串 */
 + (NSString *)stringValueWithPath:(NSString *)path key:(NSString *)key;
-
 
 
 @end
